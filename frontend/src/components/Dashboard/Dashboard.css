@@ -1,0 +1,88 @@
+.Title-Dashboard {
+	width: 100%;
+	padding: 1rem;
+}
+.Title-Dashboard p {
+	margin-left: 1rem;
+	font-size: 1.5rem;
+}
+.Title-Dashboard hr {
+	background-color: black;
+	height: 2px;
+	border-style: none;
+}
+.Home-Title-Dashboard {
+	display: flex;
+	margin-bottom: 0.5rem;
+	align-items: center;
+}
+.Home-Title-Dashboard button {
+	padding: 0.3rem;
+	border-radius: 5px;
+	border-style: none;
+	cursor: pointer;
+}
+.Home-Title-Dashboard button:hover {
+	background-color: blue;
+}
+.Buttons-Dashboard {
+	margin-top: 2rem;
+}
+.Create-Volunteer-Open {
+	display: flex;
+	flex-direction: column;
+	margin-top: 1.5rem;
+	background-color: rgb(88, 134, 150);
+	align-items: center;
+	border-radius: 5px;
+}
+.Create-Volunteer-Open form {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+	margin-top: 1rem;
+}
+.Create-Volunteer-Open form input {
+	padding: 0.3rem;
+	border-radius: 5px;
+	border-style: none;
+}
+.Volunteer-Submit {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+.Create-Volunteer-Open h3 {
+	margin-top: 1rem;
+	color: white;
+	font-weight: bold;
+}
+.Create-Volunteer-Button {
+	background-color: brown;
+	color: white;
+	padding: 0.5rem;
+	border-radius: 5px;
+	border-style: none;
+	cursor: pointer;
+}
+.Create-Volunteer-Button:hover {
+	background-color: #de9848;
+}
+.Volunteer-Submit {
+	background-color: brown;
+	color: white;
+	padding: 0.5rem;
+	border-radius: 5px;
+	border-style: none;
+	cursor: pointer;
+}
+.Volunteer-Submit:hover {
+	background-color: #de9848;
+}
+.error-message {
+	color: red;
+	margin-top: 10px;
+}
+.success-message {
+	color: lightgreen;
+	margin-bottom: 10px;
+}

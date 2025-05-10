@@ -19,8 +19,27 @@
     padding: .5em;
     border-radius: 8px;
     border-style: none;
+    cursor: pointer;
 }
 .Home-button:hover {
     background-color: blue;
     color: white;
 }
+.Data-Buttons {
+    display: flex;
+    margin-top: 2rem;
+    justify-content: space-around;
+    width: 100%
+}
+.Data-Buttons button {
+    cursor: pointer;
+    padding: .5rem;
+    border-radius: 5px;
+    border-style: none;
+    color: white;
+    background: brown;
+}
+.Data-Buttons button:hover {
+    background-color: #de9848;
+}
+
