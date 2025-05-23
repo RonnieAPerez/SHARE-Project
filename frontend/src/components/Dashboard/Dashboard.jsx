@@ -35,7 +35,6 @@ function Dashboard() {
 			setSuccess("Volunteer successfully created!");
 			setUsername("");
 			setPassword("");
-
 		} catch (err) {
 			setError(err.message);
 		}
@@ -79,8 +78,8 @@ function Dashboard() {
 								Submit
 							</button>
 						</form>
-							{error && <p className="error-message">{error}</p>}
-							{success && <p className="success-message">{success}</p>}
+						{error && <p className="error-message">{error}</p>}
+						{success && <p className="success-message">{success}</p>}
 					</div>
 				)}
 			</div>
