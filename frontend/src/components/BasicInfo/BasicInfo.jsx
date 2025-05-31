@@ -2,6 +2,7 @@ import { useParams, useLocation, Link, useNavigate } from "react-router-dom";
 import { useState, useEffect } from "react";
 import { fetchClients } from "../DataCenter/data";
 import { useQueryClient } from "@tanstack/react-query";
+import Family from "../FamilyData/Family";
 import "./BasicInfo.css";
 
 export default function BasicInfo() {
@@ -176,6 +177,9 @@ export default function BasicInfo() {
 						</button>
 					</div>
 				)}
+			</div>
+			<div>
+				<Family />
 			</div>
 			{(role === "admin" || role === "super_admin") && !editMode && (
 				<div className="delete-button-div">
